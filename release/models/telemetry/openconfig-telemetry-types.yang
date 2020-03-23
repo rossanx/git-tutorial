@@ -116,6 +116,11 @@ module openconfig-telemetry-types {
         "Telemetry stream is carried by the WebSocket framework";
   }
 
+  identity STREAM_MQTT_RPC {
+    base "STREAM PROTOCOL";
+      description
+        "Telemetry stream is carried by the MQTT protocol";
+  }
 
   // typedef statements
 
