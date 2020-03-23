@@ -14,7 +14,7 @@ A very simple git tutorial with two team members:
 **STEP 0 - Configure local repository "credentials" (no local password storage/cache version)**
 
 * rossanx - (CLI)
-  * `git config --global user.email "rossanx@gmail.com"`
+  * `git config --global user.email "rossano@gmail.com"`
   * `git config --global user.name "Rossano Pablo Pinto"`
 
 * sputinik - (CLI)
