@@ -177,6 +177,9 @@ Fast-forward
 
 Congrats! :+1:
 
+TODO: Using tags in git (local and remote).
+
+
 ===============================================================================
 
 **ALTERNATIVE (COMBINED) STEPS 8 AND 9**
