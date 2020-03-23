@@ -88,7 +88,7 @@ A very simple git tutorial with two team members:
   * `git log`
     * Collaborator can see commit history
 
-**STEP 7 - Collaborator make a contribution**
+**STEP 7 - Collaborator makes a contribution**
 
 * sputinik - (CLI)
   * Modify file release/models/telemetry/openconfig-telemetry-types.yang
@@ -141,10 +141,10 @@ A very simple git tutorial with two team members:
            // typedef statements
 ```
 
-**STEP 9 - Owner wnats to incorporate changes made by Collaborator**
+**STEP 9 - Owner wants to incorporate changes made by Collaborator**
   * rossanx - (CLI)
     * `git merge`
-      *  This command will show:
+      *  This command shows:
 ```
 Updating 5e8ea4d..f674857
 Fast-forward
@@ -154,6 +154,26 @@ Fast-forward
 
   * rossanx - (CLI) `cat release/models/telemetry/openconfig-telemetry-types.yang`
 
+**STEP 10 - Owner oberved that revision information is missing in the edited YANG file, and inserts it:
+  * Changed and inserted the following info at the beginning of the file release/models/telemetry/openconfig-telemetry-types.yang :
+
+```
+  oc-ext:openconfig-version "0.5.0";
+
+  revision "2020-03-23" {
+    description
+      "Add MQTT telemetry streaming support.";
+    reference "0.5.0";
+  }
+```
+  * `git status`
+    * This command shows file openconfig-telemetry-types.yang has changed
+  * `git add release/models/telemetry/openconfig-telemetry-types.yang`
+  * `git commit -m "Updated openconfig-telemetry-types.yang version number and revision information."`
+  * git push
+
+**STEP 11 - Collaborator wants to incorporated new changes
+  * Now you know how to complete this step, complete it!
 
 Congrats! :+1:
 
@@ -161,8 +181,7 @@ Congrats! :+1:
 
 **ALTERNATIVE (COMBINED) STEPS 8 AND 9**
 
-Sometimes you just want to pull changes and accept them as they are. So, if it's
-the case, just `git pull` it:
+Sometimes you just want to pull changes and accept them as they are (as in STEP 4). So, if it's the case, just `git pull` it:
 
   * rossanx - (CLI) `git pull`
     * provide credentials (sputinik and password)
