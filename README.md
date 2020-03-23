@@ -50,7 +50,7 @@ A very simple git tutorial with two team members:
     * provide credentials (rossanx and password)
 
 
-**STEP 4 - Collaborator checks is there is an update**
+**STEP 4 - Collaborator checks if there is an update**
 
 * sputinik - (CLI)
 
@@ -80,7 +80,7 @@ A very simple git tutorial with two team members:
   * `git push`
     * provide credentials (rossanx and password)
 
-**STEP 6 - Collaborator checks is there is an update**
+**STEP 6 - Collaborator checks if there is an update**
 
 * sputinik - (CLI)
   * `git pull`
