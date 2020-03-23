@@ -172,7 +172,7 @@ Fast-forward
   * `git commit -m "Updated openconfig-telemetry-types.yang version number and revision information."`
   * `git push`
 
-**STEP 11 - Collaborator wants to incorporated new changes
+**STEP 11 - Collaborator wants to incorporated new changes in his local copy
   * Now you know how to complete this step, complete it!
 
 Congrats! :+1:
