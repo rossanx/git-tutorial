@@ -1,7 +1,9 @@
 # git-tutorial
 Git Tutorial
-author: rossano at gmail dot com
-timestamp: Mon 23 Mar 2020 02:40:53 PM -03
+
+Author: rossano at gmail dot com
+
+Timestamp: Mon 23 Mar 2020 02:40:53 PM -03
 
 
 A very simple git tutorial with two team members:
@@ -9,7 +11,7 @@ A very simple git tutorial with two team members:
       - rossanx (owner)
       - sputinik (collaborator)
 
-**STEP 0 - Configure local repository "credentials" (no local password storage/cache version)
+**STEP 0 - Configure local repository "credentials" (no local password storage/cache version)**
 
 * rossanx - (CLI)
   * `git config --global user.email "rossanx@gmail.com"`
@@ -20,14 +22,14 @@ A very simple git tutorial with two team members:
   * `git config --global user.name "Paul Harris Sputinik"`
 
 
-**STEP 1 - Create github repository and add collaborators
+**STEP 1 - Create github repository and add collaborators**
 
 * rossanx - (WEB) Create REPO at github.com (git-tutorial)
   * Invite sputinik to collaborate
 
 * sputinik - (WEB) Accept invitation (access it's github account ...)
 
-**STEP 2 - Clone github repository (make a local copy)
+**STEP 2 - Clone github repository (make a local copy)**
 
 * rossanx - (CLI) `git clone https://github.com/rossanx/git-tutorial.git`
   * provide credentials (rossanx and password)
@@ -37,7 +39,7 @@ A very simple git tutorial with two team members:
   * provide credentials (sputinik and password)
   * `cd git-tutorial`
   
-**STEP 3 - Owner makes local changes and updates github
+**STEP 3 - Owner makes local changes and updates github**
 
 * rossanx - (CLI)
   * COPY OPENCONFIG MODELS TO LOCAL REPOSITORY
@@ -48,7 +50,7 @@ A very simple git tutorial with two team members:
     * provide credentials (rossanx and password)
 
 
-**STEP 4 - Collaborator checks is there is an update
+**STEP 4 - Collaborator checks is there is an update**
 
 * sputinik - (CLI)
 
@@ -57,7 +59,7 @@ A very simple git tutorial with two team members:
   * `git log`
     * Collaborator can see commit history
     
-**STEP 5 - Owner makes local changes and updates github
+**STEP 5 - Owner makes local changes and updates github**
 
 * rossanx - (CLI)
   * Modify file release/models/telemetry/openconfig-telemetry-types.yang
@@ -78,7 +80,7 @@ A very simple git tutorial with two team members:
   * `git push`
     * provide credentials (rossanx and password)
 
-**STEP 6 - Collaborator checks is there is an update
+**STEP 6 - Collaborator checks is there is an update**
 
 * sputinik - (CLI)
   * `git pull`
@@ -86,7 +88,7 @@ A very simple git tutorial with two team members:
   * `git log`
     * Collaborator can see commit history
 
-**STEP 7 - Collaborator make a contribution
+**STEP 7 - Collaborator make a contribution**
 
 * sputinik - (CLI)
   * Modify file release/models/telemetry/openconfig-telemetry-types.yang
@@ -117,7 +119,7 @@ A very simple git tutorial with two team members:
   * `git push`
     * provide credentials (sputinik and password)
 
-**STEP 8 - Owner wants to check if Collaborator made some changes
+**STEP 8 - Owner wants to check if Collaborator made some changes**
   * rossanx - (CLI)
     * `git fetch --all`
       * This command fetches all changes from github, but does not merge them
@@ -139,7 +141,7 @@ A very simple git tutorial with two team members:
            // typedef statements
 ```
 
-**STEP 9 - Owner wnats to incorporate changes made by Collaborator
+**STEP 9 - Owner wnats to incorporate changes made by Collaborator**
   * rossanx - (CLI)
     * `git merge`
       *  This command will show:
@@ -152,9 +154,12 @@ Fast-forward
 
   * rossanx - (CLI) `cat release/models/telemetry/openconfig-telemetry-types.yang`
 
+
+Congrats! :+1:
+
 ===============================================================================
 
-**ALTERNATIVE (COMBINED) STEPS 8 AND 9
+**ALTERNATIVE (COMBINED) STEPS 8 AND 9**
 
 Sometimes you just want to pull changes and accept them as they are. So, if it's
 the case, just `git pull` it:
