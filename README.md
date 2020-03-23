@@ -170,7 +170,7 @@ Fast-forward
     * This command shows file openconfig-telemetry-types.yang has changed
   * `git add release/models/telemetry/openconfig-telemetry-types.yang`
   * `git commit -m "Updated openconfig-telemetry-types.yang version number and revision information."`
-  * git push
+  * `git push`
 
 **STEP 11 - Collaborator wants to incorporated new changes
   * Now you know how to complete this step, complete it!
