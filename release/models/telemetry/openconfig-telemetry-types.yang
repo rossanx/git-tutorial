@@ -21,7 +21,13 @@ module openconfig-telemetry-types {
     "This module defines type and identities used by the OpenConfig
     telemetry model.";
 
-  oc-ext:openconfig-version "0.4.2";
+  oc-ext:openconfig-version "0.5.0";
+
+  revision "2020-03-23" {
+    description
+      "Add MQTT telemetry streaming support.";
+    reference "0.5.0";
+  }
 
   revision "2018-11-21" {
     description
