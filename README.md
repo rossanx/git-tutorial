@@ -3,7 +3,7 @@ Git Tutorial
 
 Author: rossano at gmail dot com
 
-Timestamp: Fri 27 Mar 2020 10:42:39 AM -03
+Timestamp: Fri 27 Mar 2020 03:04:53 PM -03
 
 
 A very simple git tutorial with two team members:
@@ -172,10 +172,10 @@ Fast-forward
   * `git commit -m "Updated openconfig-telemetry-types.yang version number and revision information."`
   * `git push`
 
-**STEP 11 - Collaborator wants to incorporated new changes in his local copy
+**STEP 11 - Collaborator wants to incorporate new changes in his local copy**
   * Now you know how to complete this step, complete it!
 
-**STEP 12 - Adding more collaborators to github project
+**STEP 12 - Adding more collaborators to github project**
   * Settings -> Manage access -> Invite a collaborator
   * Now each invited collaborator must accept the inviation to join the repository's list of collaborators
 
