@@ -192,3 +192,7 @@ Sometimes you just want to pull changes and accept them as they are (as in STEP 
 
   * rossanx - (CLI) `git pull`
     * provide credentials (sputinik and password)
+
+===============================================================================
+
+Darli Mello 27/03/2020 12:09
