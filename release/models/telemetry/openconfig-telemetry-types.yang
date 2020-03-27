@@ -117,6 +117,14 @@ module openconfig-telemetry-types {
   }
 
 
+  identity STREAM_MQTT_RPC {
+        base "STREAM PROTOCOL";
+          description
+            "Telemetry stream is carried by the MQTT protocol";
+  }
+
+
+
   // typedef statements
 
 
