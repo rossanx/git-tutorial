@@ -3,7 +3,7 @@ Git Tutorial
 
 Author: rossano at gmail dot com
 
-Timestamp: Mon 23 Mar 2020 17:47:01 PM -03
+Timestamp: Fri 27 Mar 2020 10:42:39 AM -03
 
 
 A very simple git tutorial with two team members:
