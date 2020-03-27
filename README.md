@@ -175,6 +175,10 @@ Fast-forward
 **STEP 11 - Collaborator wants to incorporated new changes in his local copy
   * Now you know how to complete this step, complete it!
 
+**STEP 12 - Adding more collaborators to github project
+  * Settings -> Manage access -> Invite a collaborator
+  * Now each invited collaborator must accept the inviation to join the repository's list of collaborators
+
 Congrats! :+1:
 
 TODO: Using tags in git (local and remote).
