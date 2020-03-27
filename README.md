@@ -3,7 +3,7 @@ Git Tutorial
 
 Author: rossano at gmail dot com
 
-Timestamp: Fri 27 Mar 2020 03:04:53 PM -03
+Timestamp: Fri 27 Mar 2020 03:08:26 PM -03
 
 
 A very simple git tutorial with two team members:
@@ -154,7 +154,7 @@ Fast-forward
 
   * rossanx - (CLI) `cat release/models/telemetry/openconfig-telemetry-types.yang`
 
-**STEP 10 - Owner oberved that revision information is missing in the edited YANG file, and inserts it:
+**STEP 10 - Owner oberved that revision information is missing in the edited YANG file, and inserts it**
   * Changed and inserted the following info at the beginning of the file release/models/telemetry/openconfig-telemetry-types.yang :
 
 ```
