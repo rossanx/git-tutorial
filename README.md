@@ -3,7 +3,7 @@ Git Tutorial
 
 Author: rossano at gmail dot com
 
-Timestamp: Fri 27 Mar 2020 03:08:26 PM -03
+Timestamp: Tue 07 Apr 2020 09:25:19 AM -03
 
 
 A very simple git tutorial with two team members:
@@ -194,9 +194,12 @@ Sometimes you just want to pull changes and accept them as they are (as in STEP 
     * provide credentials (sputinik and password)
 
 ===============================================================================
+*************************** PARTICIPANT LOG ***********************************
+===============================================================================
 
 Darli Mello 27/03/2020 12:09
 
 ===============================================================================
 
 Kayol Mayer 27/03/2020 12:16
+
