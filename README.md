@@ -194,7 +194,9 @@ Sometimes you just want to pull changes and accept them as they are (as in STEP 
     * provide credentials (sputinik and password)
 
 ==============================================================================
+
 **PARTICIPANT LOG**
+
 ==============================================================================
 
 Darli Mello 27/03/2020 12:09
