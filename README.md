@@ -194,6 +194,7 @@ Sometimes you just want to pull changes and accept them as they are (as in STEP 
     * provide credentials (sputinik and password)
 
 ==============================================================================
+
 Where to go from here? 
 
 Git - Concepts and Workflows : 
