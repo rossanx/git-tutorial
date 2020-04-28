@@ -3,7 +3,7 @@ Git Tutorial
 
 Author: rossano at gmail dot com
 
-Timestamp: Tue 07 Apr 2020 09:25:19 AM -03
+Timestamp: Tue 28 Apr 2020 02:12:38 PM -03
 
 
 A very simple git tutorial with two team members:
@@ -28,6 +28,7 @@ A very simple git tutorial with two team members:
   * Invite sputinik to collaborate
 
 * sputinik - (WEB) Accept invitation (access it's github account ...)
+  * After login, access URL: https://github.com/rossanx/git-tutorial/invitations
 
 **STEP 2 - Clone github repository (make a local copy)**
 
